@@ -1,4 +1,4 @@
-package tech.getarrays.employee.manager.Employees;
+package tech.getarrays.employee.manager.Employee;
 
 import jakarta.persistence.*;
 
@@ -6,7 +6,7 @@ import java.io.Serializable;
 
 @Entity
 @Table
-public class Employees implements Serializable {
+public class Employee implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false, updatable = false)
