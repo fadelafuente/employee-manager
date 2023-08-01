@@ -1,12 +1,10 @@
 package tech.getarrays.employee.manager.Employee;
 
-import ch.qos.logback.core.model.conditional.ElseModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import tech.getarrays.employee.manager.exception.UserNotFoundException;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.UUID;
 
 @Service
